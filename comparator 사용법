@@ -1,0 +1,12 @@
+원하는 규칙대로 정렬을 하고 싶을 때 사용
+
+String[] arr = new String[N];	// 배열에 단어가 이미 초기화 되었다고 가정
+ 
+Arrays.sort(arr, new Comparator<String>() {		
+	@Override
+	public int compare(String s1, String s2) {
+		/*
+		  정렬방법 구현
+		*/
+	}
+});
